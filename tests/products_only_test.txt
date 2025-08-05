@@ -1,0 +1,6 @@
+VERBOSE ON
+CREATE TABLE products (id INTEGER, name VARCHAR, price DOUBLE, available BOOLEAN)
+INSERT INTO products VALUES (100, 'Laptop', 999.99, true)
+INSERT INTO products VALUES (101, 'Mouse', 29.99, false)
+SELECT * FROM products
+STATS

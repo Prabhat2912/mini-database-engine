@@ -1,0 +1,5 @@
+VERBOSE ON
+INSERT INTO users VALUES (888, 'session_test', 'session@test.com', 25, true)
+SELECT * FROM users
+STATS
+EXIT

@@ -1,0 +1,3 @@
+VERBOSE ON
+SELECT * FROM products
+STATS

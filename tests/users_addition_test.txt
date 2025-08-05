@@ -1,0 +1,6 @@
+VERBOSE ON
+CREATE TABLE users (id INTEGER, name VARCHAR, email VARCHAR, active BOOLEAN)
+INSERT INTO users VALUES (1, 'Alice', 'alice@test.com', true)
+INSERT INTO users VALUES (2, 'Bob', 'bob@test.com', false)
+SELECT * FROM users
+STATS
