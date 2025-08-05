@@ -1,4 +1,0 @@
-VERBOSE ON
-SELECT * FROM users
-SELECT * FROM products
-STATS

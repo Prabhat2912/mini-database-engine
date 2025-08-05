@@ -228,6 +228,7 @@ yarn-error.log*
 
 # Test files
 test/
+tests/
 # Ignore test database files
 test.db
 # Ignore test logs

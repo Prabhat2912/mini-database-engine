@@ -1,8 +1,0 @@
-VERBOSE ON
-SELECT * FROM users
-SELECT * FROM products
-INSERT INTO users VALUES (3, 'Charlie', 'charlie@test.com', true)
-INSERT INTO products VALUES (102, 'Keyboard', 79.99, true)
-SELECT * FROM users
-SELECT * FROM products
-STATS

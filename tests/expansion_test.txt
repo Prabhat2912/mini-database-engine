@@ -1,9 +1,0 @@
-VERBOSE ON
-INSERT INTO users VALUES (3, 'Charlie', 'charlie@test.com', true)
-CREATE TABLE products (id INTEGER, name VARCHAR, price DOUBLE, available BOOLEAN)
-INSERT INTO products VALUES (100, 'Laptop', 999.99, true)
-INSERT INTO products VALUES (101, 'Mouse', 29.99, false)
-SELECT * FROM users
-SELECT * FROM products
-STATS
-EXIT
