@@ -17,13 +17,33 @@ A complete, production-ready database engine implemented in C++ featuring ACID t
 
 ### Building the Project
 
+#### Recommended: One-command build (cross-platform)
+
+For Linux/macOS:
+```sh
+./build_db_engine.sh
+```
+
+For Windows:
+```bat
+build_db_engine.bat
+```
+
+These scripts will check for CMake, create all required directories, and build the project automatically.
+
+#### Manual build (if you prefer)
 ```bash
 # Clone and build
 mkdir build && cd build
 cmake ..
 cmake --build .
 
+# Create the database directory (required for data persistence)
+cd ..
+mkdir -p db
+
 # Run the database engine
+cd build
 ./db_engine
 ```
 
